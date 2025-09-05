@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Factory Automation Demo - Productivité x10</title>
+
+    <!-- Démo technique : n8n Email Automation Studio
+         Code fourni à titre éducatif uniquement.
+         © 2025 – Aucun lien avec une entreprise spécifique -->
+
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Factory Automation Demo - Productivité x10</h1>
+    </div>
+    <div id="canvas-container"></div>
+    <div id="metrics-hud" role="status" aria-live="polite">
+        <div class="metric-card" data-metric="production">
+            <div class="metric-label">Production/min</div>
+            <div class="metric-value" id="production-rate">12</div>
+            <div class="metric-trend" id="production-trend">→ Stable</div>
+        </div>
+        <div class="metric-card" data-metric="efficiency">
+            <div class="metric-label">Efficacité</div>
+            <div class="metric-value" id="efficiency">45%</div>
+            <div class="metric-trend" id="efficiency-trend">↓ -23%</div>
+        </div>
+        <div class="metric-card" data-metric="errors">
+            <div class="metric-label">Erreurs/h</div>
+            <div class="metric-value" id="error-rate">28</div>
+            <div class="metric-trend" id="error-trend">↑ +15%</div>
+        </div>
+        <div class="metric-card" data-metric="cost">
+            <div class="metric-label">Coût/unité</div>
+            <div class="metric-value" id="cost-per-unit">€4.20</div>
+            <div class="metric-trend" id="cost-trend">↑ +8%</div>
+        </div>
+    </div>
+    <div id="ui-container">
+        <div id="status-bar" role="alert" aria-atomic="true">
+            <div class="status-text status-manual" id="status-text">
+                🔴 MODE MANUEL ACTIF - Productivité limitée
+            </div>
+        </div>
+        <div id="controls" role="toolbar">
+            <button class="control-btn active" data-state="manual" aria-pressed="true" tabindex="0">
+                🔧 <span class="btn-main">Manuel</span>
+                <span class="btn-subtitle">Contrôle humain</span>
+                <kbd aria-hidden="true">1</kbd>
+            </button>
+            <button class="control-btn" data-state="semi-auto" aria-pressed="false" tabindex="0">
+                ⚡ <span class="btn-main">Semi-Auto</span>
+                <span class="btn-subtitle">Assistance IA</span>
+                <kbd aria-hidden="true">2</kbd>
+            </button>
+            <button class="control-btn" data-state="automated" aria-pressed="false" tabindex="0">
+                🚀 <span class="btn-main">Full Auto</span>
+                <span class="btn-subtitle">IA Complète</span>
+                <kbd aria-hidden="true">3</kbd>
+            </button>
+        </div>
+    </div>
+    <div id="fallback" role="alert" aria-live="assertive" hidden>
+        <h2>WebGL non disponible</h2>
+        <p>Votre navigateur ne supporte pas WebGL.</p>
+        <p><a href="https://get.webgl.org/" target="_blank" rel="noopener">En savoir plus</a></p>
+    </div>
+
+    <!-- CDN : Three.js + GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scripts modulaires -->
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/factory.js"></script>
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
