@@ -1,0 +1,9 @@
+# Dependencies
+/node_modules
+
+# Environments
+.env
+
+# Models 3D (optionnels)
+assets/models/*
+!assets/models/.gitkeep
