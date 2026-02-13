@@ -100,7 +100,7 @@ factory-automation-demo/
 
 * Crédits : Three.js (MIT), GSAP core (licence GreenSock)
 * Droits : © Axiorix — **Démo uniquement, tous droits réservés**
-* Contact : [Formulaire de contact](https://www.axiorix.com/#contact)
+* Contact : [Formulaire de contact](https://axiorix.com/#formulaire-audit-accueil)
 
 ---
 
@@ -109,7 +109,7 @@ Ce code est fourni à titre éducatif uniquement. © 2025 – Aucun lien avec un
 ## 🤝 Auteur
 
 **Axiorix** — Cas pratiques & formations IA pour **PME suisses**  
-🌐 [https://www.axiorix.com/](https://www.axiorix.com/)
+🌐 [https://www.axiorix.com/](https://axiorix.com/)
 
 ---
 
