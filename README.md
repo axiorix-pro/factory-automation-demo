@@ -109,7 +109,7 @@ Ce code est fourni à titre éducatif uniquement. © 2025 – Aucun lien avec un
 ## 🤝 Auteur
 
 **Axiorix** — Cas pratiques & formations IA pour **PME suisses**  
-🌐 [https://www.axiorix.com/](https://axiorix.com/)
+🌐 [https://axiorix.com/](https://axiorix.com/)
 
 ---
 
